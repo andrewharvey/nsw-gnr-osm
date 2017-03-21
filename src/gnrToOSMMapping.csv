@@ -1,0 +1,206 @@
+designation	tags
+ABORIGINAL RESERVE	boundary=protected_area,protect_class=24
+AERODROME	aeroway=aerodrome
+AIRFIELD	aeroway=aerodrome
+AIRPORT	aeroway=aerodrome
+AMPHITHEATRE	
+ANABRANCH	waterway=stream
+ARM	waterway=river
+ARTESIAN BORE	man_made=water_well
+BACKWATER	natural=water
+BASIN	landuse=basin
+BAY	natural=bay
+BEACH	natural=beach
+BIGHT	natural=bay
+BILLABONG	natural=water
+BLUFF	natural=ridge
+BORE	man_made=water_well
+BOUNDARY	boundary=administratvie
+BREAKWATER	man_made=breakwater
+BROOK	waterway=stream
+BUTTE	natural=aridform,aridform=butte
+BUTTRESS
+CAMP	tourism=camp site
+CANAL	waterway=canal
+CANYON
+CAPE
+CATCHMENT AREA
+CAUSEWAY	ford=yes
+CAVE	natural=cave_entrance
+CEMETERY	 landuse=cemetery
+CHANNEL
+CHASM
+CITY	place=city
+CLEARING
+CLIFF	natural=cliff
+COLLEGE	amenity=college
+COMMON	leisure=common
+COUNTY
+COVE	natural=water,water=cove
+COWAL	natural=lake
+CRATER	natural=crater
+CREEK	natural=creek
+CROSSING	crossing=yes
+CUTTING	cutting=yes
+DAM	waterway=dam
+DEPRESSION	natural=sinkhole
+DESERT	natural=desert
+DIP
+DISTRICT	boundary=administrative
+DOCK	waterway=dock
+DRAIN	waterway=drain
+DUNES	natural=dune
+ESCARPMENT	natural=cliff
+ESTUARY	estuary=yes
+FALLS	waterway=waterfall
+FAULT
+FLAT
+FLORA RESERVE	boundary=protected_area,protect_class=14
+FORD	ford=yes
+FOREST	natural=wood
+GAOL	amenity=prison
+GAP	natural=saddle
+GLEN
+GOLF COURSE	leisure=golf_course
+GORGE	natural=gorge
+GRADIENT
+GRAVEYARD	amenity=grave_yard
+GULF
+GULLY	natural=gully
+HARBOUR	harbour=yes
+HEAD	natural=headland
+HEADLAND	natural=peninsula
+HILL
+HILLOCK
+HISTORIC AREA	historic=yes
+HISTORIC SITE	historic=yes
+HISTORICAL LOCALITY	historic:place=locality
+HISTORICAL RECONSTRUCTION	historic=yes
+HOLE	natural=sinkhole
+HOMESTEAD	building=house
+INLET	natural=bay
+ISLAND	place=island
+ISLET	place=islet
+KNOB
+KNOLL	natural=peak,peak=knoll
+LAGOON	natural=water,water=lagoon
+LAKE	natural=water,water=lake
+LAKE BED    natural=water,water=lake,intermittent=yes
+LANDING PLACE
+LANDMARK
+LANDSCAPE FEATURE
+LIGHTHOUSE	man_made=lighthouse
+LOCALITY	place=town
+LOCK	waterway=lock_gate
+LOOKOUT	tourism=viewpoint
+LOOP	railway=rail,service=yes
+MARINA	leisure=marina
+MARSHES	natural=wetland,wetland=marsh
+MESA	natural=aridform,aridform=mesa
+MONOLITHS	site_type=megalith 
+MOOR	natural=moor
+MOUNT	natural=peak
+MOUNTAIN	natural=peak
+MOUNTAIN LAKES natural=water,water=lake
+MOUNTAIN PEAK	natural=peak
+MOUNTAIN RANGE
+NAVAL ESTABLISHMENT	landuse=military,military=naval_base
+NECK
+NEIGHBOURHOOD	place=neighbourhood
+OBSERVATORY	man made=observatory
+OCEAN	place=ocean
+PARISH
+PASS	mountain_pass=yes
+PASSAGE waterway=yes
+PEAK	natural=peak
+PENINSULA	natural=peninsula
+PICNIC AREA	tourism=picnic site
+PINNACLE	natural=peak
+PIT
+PLAIN
+PLATEAU
+POINT
+POND	natural=water,water=pond
+POOL	natural=water,water=stream_pool
+PORT    landuse=industrial,industrial=port
+POST OFFICE	amenity=post_office
+POWER STATION	power=station
+PRISON	amenity=prison
+PUBLIC WATERING PLACE
+RACECOURSE	sport=horse_racing
+RAILWAY	railway=rail
+RAILWAY CUTTING	railway=rail,cutting=yes
+RAILWAY LOOP	railway=rail,service=siding
+RAILWAY SIDING	railway=rail,service=siding
+RAILWAY STATION railway=station
+RAMP	leisure=slipway
+RANGE
+RAPIDS	waterway=rapids
+RAVINE
+REACH
+REEF	natural=reef
+REGION
+REGULATOR
+RESEARCH STATION
+RESERVE	leisure=park
+RESERVOIR	natural=water,water=reservoir
+RIDGE
+RIFLE RANGE	leisure=shooting_ground
+RIVER	waterway=river
+RIVER BEND	waterway=river
+RIVER CROSSING  crossing=yes
+RIVER FLAT	waterway=river
+RIVER MOUTH	waterway=river
+RIVULET	waterway=stream
+ROAD BEND	highway=road
+ROADS	highway=road
+ROADSTEAD
+ROCK	natural=rock
+ROCK FACE	natural=rock
+RURAL PLACE	place=yes
+SADDLE	natural=saddle
+SANDBANK
+SANDBAR
+SANDHILL	natural=dune
+SANDRIDGE
+SCHOOL	amenity=school
+SCRUB	natural=scrub
+SEA	place=sea
+SHOAL	natural=shoal
+SPORTSGROUND	leisure=sports centre
+SPRING	natural=spring
+SPUR
+STATE	boundary=administrative,admin_level=4
+STATION	railway=station
+STEEPS
+STRAIT
+STREAM	waterway=stream
+SUBURB	place=suburb
+SURF BREAK
+SWAMP	natural=wetland,wetland=swamp
+SYPHON
+TABLELAND
+TANK
+TERMINAL	public_transport=station
+TERRACE
+TOPS
+TOWER	man_made=tower
+TOWN	place=town
+TRACK	highway=track
+TRAINING WALL	man made=breakwater
+TRIG. STATION	man_made=survey_point
+TUNNEL	tunnel=yes
+UNIVERSITY	amenity=university
+URBAN LOCALITY	place=locality
+URBAN PLACE	place=locality
+URBAN VILLAGE	place=village
+VALLEY
+VILLAGE
+WATER AERODROME	aeroway=aerodrome
+WATER FEATURE
+WATER SYPHON
+WATERFALL	waterway=waterfall
+WATERHOLE
+WEIR	waterway=weir
+WELL	man_made=water_well
+WHARF	waterway=dock

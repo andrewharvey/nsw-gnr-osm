@@ -1,0 +1,15 @@
+{
+  "name": "nsw-gnr-osm",
+  "version": "1.0.0",
+  "description": "Script to convert the Geographical Names Board of New South Wales (GNB) Geographical Names Register (GNR) into an OSM like schema in the GeoJSON format.",
+  "main": "src/gnr2geojson-osm.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andrew Harvey <andrew@alantgeo.com.au>",
+  "license": "ISC",
+  "dependencies": {
+    "geojson2osm": "git://github.com/Rub21/geojson2osm.git#1fbe19d927d8cf1ad97ccd493ac63b9d9987a012",
+    "ya-csv": "^0.10.1"
+  }
+}
