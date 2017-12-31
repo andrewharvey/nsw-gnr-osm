@@ -9,7 +9,7 @@
   "author": "Andrew Harvey <andrew@alantgeo.com.au>",
   "license": "ISC",
   "dependencies": {
-    "geojson2osm": "git://github.com/Rub21/geojson2osm.git#1fbe19d927d8cf1ad97ccd493ac63b9d9987a012",
+    "geojson2osm": "andrewharvey/geojson2osm",
     "ya-csv": "^0.10.1"
   }
 }

@@ -2,7 +2,7 @@ all: gnr.osm
 
 gnr.zip:
 	wget http://www.gnb.nsw.gov.au/__gnb/$@
-	wget http://www.gnb.nsw.gov.au/__data/assets/pdf_file/0011/59627/Glossary_of_Designation_Values.pdf
+	wget http://www.gnb.nsw.gov.au/__data/assets/pdf_file/0011/59627/Glossary_of_Designation_Values_2017.pdf
 	wget http://www.gnb.nsw.gov.au/__data/assets/pdf_file/0003/59628/Glossary_of_Status_Values_GNB.pdf
 
 gnr.csv: gnr.zip
@@ -18,5 +18,4 @@ gnr.osm: gnr.osm.geojson
 	./node_modules/.bin/geojson2osm $< > $@
 
 clean:
-	rm -f gnr.zip gnr.csv gnr.osm.geojson gnr.osm
-	
+	rm -f gnr.zip gnr.csv gnr.osm.geojson gnr.osm Glossary_of_Designation_Values_2017.pdf Glossary_of_Status_Values_GNB.pdf
