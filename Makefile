@@ -1,4 +1,4 @@
-all: gnr.osm
+all: dist/gnr.osm
 
 gnr.zip:
 	wget http://www.gnb.nsw.gov.au/__gnb/$@
@@ -11,10 +11,10 @@ gnr.csv: gnr.zip
 	for f in gnr_part*.csv ; do cat $$f | tail -n +7 >> $@ ; done
 	rm -f $< gnr_part*.csv
 
-gnr.osm.geojson: gnr.csv
+dist/gnr.osm.geojson: gnr.csv
 	./src/gnr2geojson-osm.js
 
-gnr.osm: gnr.osm.geojson
+dist/gnr.osm: dist/gnr.osm.geojson
 	./node_modules/.bin/geojson2osm $< > $@
 
 clean:

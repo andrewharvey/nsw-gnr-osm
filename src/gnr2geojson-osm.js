@@ -125,6 +125,6 @@ schemaReader.addListener('end', function (data) {
             features: features
         };
 
-        fs.writeFileSync('gnr.osm.geojson', JSON.stringify(geojson));
+        fs.writeFileSync('dist/gnr.osm.geojson', JSON.stringify(geojson));
     });
 });
