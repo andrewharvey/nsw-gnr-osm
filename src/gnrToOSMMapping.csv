@@ -23,8 +23,8 @@ BUTTRESS
 CAMP	tourism=camp site
 CANAL	waterway=canal
 CANYON
-CAPE
-CATCHMENT AREA
+CAPE	natural=cape
+CATCHMENT AREA	boundary=protected_area,protect_class=12
 CAUSEWAY	ford=yes
 CAVE	natural=cave_entrance
 CEMETERY	 landuse=cemetery
