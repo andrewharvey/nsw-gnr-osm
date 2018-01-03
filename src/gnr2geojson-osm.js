@@ -101,7 +101,7 @@ schemaReader.addListener('end', function (data) {
         if (keys) {
             keys.forEach((key) => {
                 var tag = key.split('=');
-                assert(tag.length == 2);
+                assert(tag.length == 2, 'In gnrToOSMMapping.csv expected a key=value but that was not found.');
                 properties[tag[0]] = tag[1];
             });
         }
