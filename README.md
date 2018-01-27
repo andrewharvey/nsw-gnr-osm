@@ -1,3 +1,5 @@
+# moved to https://gitlab.com/andrewharvey/nsw-gnr-osm
+
 # About
 Tools to help turn the Geographical Names Board of New South Wales (GNB) [Geographical Names Register (GNR)](http://www.gnb.nsw.gov.au/place_naming/placename_search) into an OSM like schema in the GeoJSON and OSM format.
 
